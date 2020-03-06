@@ -1,0 +1,133 @@
+body{
+    background-color: yellow;
+}
+.leftEye {
+  background-color: black;
+  border-radius: 50%;
+  height: 100px;
+  width: 75px;
+  transform: skewx(60deg);
+  transform: rotatey(60deg);
+}
+.innerEyeLeft {
+  background-color: saddlebrown;
+  border-radius: 50%;
+  height: 68px;
+  width: 51px;
+  transform: translate(10px, 20px);
+}
+.iris1 {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: translate(35px, -50px);
+}
+.iris2 {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: translate(40px, -45px);
+}
+.iris3 {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: translate(15px, -66px);
+}
+
+.space {
+  width: 200px;
+  height: 300px;
+}
+.rightEye {
+  background-color: black;
+  border-radius: 50%;
+  height: 100px;
+  width: 75px;
+  transform: skewx(60deg);
+  transform: rotatey(60deg);
+}
+
+.innerEyeRight {
+  background-color: saddlebrown;
+  border-radius: 50%;
+  height: 68px;
+  width: 51px;
+  transform: translate(10px, 20px);
+}
+.iris4 {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: translate(35px, -50px);
+}
+.iris5 {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: translate(40px, -45px);
+}
+.iris6 {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: translate(15px, -66px);
+}
+
+.eyes {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.upperBill {
+  background-color: orange;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgba(0, 0, 0, 0.6);
+  height: 300px;
+  width: 150px;
+  border-radius: 50%;
+  transform: skewx(45deg);
+  transform: rotatex(45deg);
+  transform: translate(75px);
+}
+.lowerBill {
+  background-color: orange;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgba(0, 0, 0, 0.6);
+  height: 300px;
+  width: 150px;
+  border-radius: 50%;
+  transform: skewx(45deg);
+  transform: rotatex(45deg);
+  transform: translate(-75px, -8px);
+}
+.bill {
+  display: flex;
+  justify-content: center;
+}
+.hole1 {
+  background-color: rgba(146, 98, 8, 0.6);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transform: translate(-7px, -60px);
+}
+.hole2 {
+  background-color: rgba(146, 98, 8, 0.6);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transform: translate(13px, -60px);
+}
+.noseHoles {
+  display: flex;
+  justify-content: center;
+}
