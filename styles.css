@@ -1,6 +1,21 @@
 body{
     background-color: yellow;
 }
+.feedButton{
+  height:75px;
+  width:45px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.playButton{
+  height:75px;
+  width:45px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.waterButton{
+  height:75px;
+  width:45px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
 .leftEye {
   background-color: black;
   border-radius: 50%;
